@@ -36,7 +36,13 @@ Version 0.1.0 was checked against all 40,929 generic cosmetic selectors and 62,1
 
 ## Open Graph
 
-Just Share does not print Open Graph tags. Share previews come from your SEO plugin, so make sure it prints `og:title` and `og:image` on single posts.
+Just Share does not print Open Graph tags. Share previews come from your SEO plugin, so make sure it prints `og:title` and `og:image` on single posts. With [Omni Webmaster & SEO Suite](https://github.com/ivanusto/omni-webmaster-seo-suite), turn on "Output Meta Description and Open Graph Tags on Single Posts and Pages".
+
+## Sister projects
+
+* [Omni Webmaster & SEO Suite](https://github.com/ivanusto/omni-webmaster-seo-suite) ([WordPress.org](https://wordpress.org/plugins/omni-webmaster-seo-suite/)): SEO and site optimization in one settings panel, including meta description, Open Graph, Twitter Card and structured data on single posts. It supplies the share previews that Just Share's buttons rely on.
+* [Just Lang](https://github.com/ivanusto/just-lang): multilingual signals for sites that build each language version as its own page: `html lang`, `hreflang` with `x-default`, `og:locale`, a language switcher and cache-friendly language detection.
+* [Omni Performance Hardening](https://github.com/ivanusto/omni-wp-perf-hardening): reduces server load from search scans, archive queries, low-value feeds and oEmbed endpoints, and tunes CDN cache headers.
 
 ## Credits
 

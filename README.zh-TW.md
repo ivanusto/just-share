@@ -26,7 +26,13 @@ Just Share 的每個按鈕都由伺服器輸出，是連回本站的一般連結
 
 ## Open Graph
 
-Just Share 不輸出 Open Graph 標籤，分享預覽來自 SEO 外掛。請確認單篇文章有輸出 `og:title` 與 `og:image`。
+Just Share 不輸出 Open Graph 標籤，分享預覽來自 SEO 外掛。請確認單篇文章有輸出 `og:title` 與 `og:image`。若使用 [Omni Webmaster & SEO Suite](https://github.com/ivanusto/omni-webmaster-seo-suite)，請開啟「於單篇文章與頁面輸出 Meta Description 與 Open Graph 標籤」。
+
+## 姊妹作品
+
+* [Omni Webmaster & SEO Suite](https://github.com/ivanusto/omni-webmaster-seo-suite)（[WordPress.org](https://wordpress.org/plugins/omni-webmaster-seo-suite/)）：在同一個設定頁完成 SEO 與網站優化，包括單篇文章的 meta description、Open Graph、Twitter Card 與結構化資料。Just Share 按鈕分享出去的預覽，就是由它提供。
+* [Just Lang](https://github.com/ivanusto/just-lang)：給「每種語言各做一頁」網站用的多語系外掛，負責 `html lang`、含 `x-default` 的 `hreflang`、`og:locale`、語言切換器，以及不影響快取的語言偵測。
+* [Omni Performance Hardening](https://github.com/ivanusto/omni-wp-perf-hardening)：收斂站內搜尋全表掃描、彙整查詢、低價值 Feed 與 oEmbed 端點造成的伺服器負載，並優化 CDN 快取標頭。
 
 ## 授權
 
