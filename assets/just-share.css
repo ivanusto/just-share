@@ -1,0 +1,158 @@
+/* Just Share. Class names avoid words that generic cosmetic filters match. */
+.jsp-bar {
+	margin: 1.75em 0;
+}
+.jsp-bar .jsp-lede {
+	margin: 0 0 0.6em;
+	font-size: 0.95em;
+	font-weight: 600;
+	color: var(--jsp-lede, #d9443a);
+}
+.jsp-bar .jsp-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.jsp-bar .jsp-list > li {
+	margin: 0;
+	padding: 0;
+}
+.jsp-bar .jsp-list > li::before,
+.jsp-bar .jsp-list > li::marker {
+	content: none;
+}
+.jsp-bar .jsp-list > li[hidden] {
+	display: none;
+}
+.jsp-bar .jsp-btn {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 50%;
+	background: var(--jsp-c, #6b7280);
+	color: #fff;
+	line-height: 1;
+	text-decoration: none;
+	box-shadow: none;
+	cursor: pointer;
+	transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.jsp-bar .jsp-btn svg {
+	width: 55%;
+	height: 55%;
+}
+.jsp-bar .jsp-btn--solo {
+	background: transparent;
+	color: var(--jsp-c);
+}
+.jsp-bar .jsp-btn--solo svg {
+	width: 100%;
+	height: 100%;
+}
+.jsp-bar .jsp-btn:hover {
+	transform: translateY(-2px);
+	opacity: 0.88;
+}
+.jsp-bar .jsp-btn:focus-visible {
+	outline: 2px solid var(--jsp-c, #6b7280);
+	outline-offset: 3px;
+}
+.jsp-bar .jsp-done {
+	position: absolute;
+	inset: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: #16a34a;
+}
+.jsp-bar .jsp-btn.is-done .jsp-done {
+	display: flex;
+}
+.jsp-bar .jsp-status {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+
+.jsp-reads {
+	margin: 2.5em 0 1em;
+}
+.jsp-reads .jsp-reads__title {
+	margin: 0 0 1rem;
+	font-size: 1.25em;
+}
+.jsp-reads .jsp-reads__grid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 1.25rem 1rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.jsp-reads .jsp-card {
+	margin: 0;
+	padding: 0;
+}
+.jsp-reads .jsp-card::before,
+.jsp-reads .jsp-card::marker {
+	content: none;
+}
+.jsp-reads .jsp-card__link {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+.jsp-reads .jsp-card__img {
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16 / 10;
+	object-fit: cover;
+	margin: 0 0 0.5rem;
+	border-radius: 6px;
+	background: rgba(127, 127, 127, 0.15);
+}
+.jsp-reads .jsp-card__title {
+	display: -webkit-box;
+	overflow: hidden;
+	font-size: 0.95em;
+	line-height: 1.45;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
+.jsp-reads .jsp-card__link:hover .jsp-card__title {
+	text-decoration: underline;
+}
+.jsp-reads .jsp-card__date {
+	display: block;
+	margin-top: 0.3rem;
+	font-size: 0.8em;
+	opacity: 0.65;
+}
+@media (max-width: 720px) {
+	.jsp-reads .jsp-reads__grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	.jsp-bar .jsp-btn {
+		transition: none;
+	}
+	.jsp-bar .jsp-btn:hover {
+		transform: none;
+	}
+}

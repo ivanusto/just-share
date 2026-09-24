@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Just Share 0.1.0\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: just-share\n"
+
+#. Plugin Name of the plugin
+#: just-share.php
+#: includes/admin.php:20
+#: includes/admin.php:21
+#: includes/admin.php:52
+msgid "Just Share"
+msgstr "Just Share"
+
+#. Plugin URI of the plugin
+#: just-share.php
+msgid "https://github.com/ivanusto/just-share"
+msgstr ""
+
+#. Description of the plugin
+#: just-share.php
+msgid "Share buttons and related posts that ad blockers leave alone: plain server-rendered links through a same-site redirect, inline SVG icons, no third-party requests, no tracking."
+msgstr "不會被擋廣告套件藏起來的分享按鈕與延伸閱讀：由伺服器輸出的純連結，經本站轉址，使用內嵌 SVG 圖示，不向第三方發出請求，也不追蹤。"
+
+#. Author of the plugin
+#: just-share.php
+msgid "Ivan Lin"
+msgstr ""
+
+#: includes/admin.php:35
+msgid "Settings"
+msgstr "設定"
+
+#: includes/admin.php:53
+msgid "Buttons are plain links that go through this site, so ad blockers do not hide them. No third-party scripts are loaded."
+msgstr "按鈕都是經本站轉址的純連結，因此不會被擋廣告套件藏起來。不會載入任何第三方指令碼。"
+
+#: includes/admin.php:58
+msgid "Buttons"
+msgstr "按鈕"
+
+#: includes/admin.php:67
+msgid "\"More options\" opens the system share sheet and only appears on devices that support it."
+msgstr "「更多選項」會開啟系統的分享選單，只在支援的裝置上顯示。"
+
+#: includes/admin.php:72
+msgid "Position"
+msgstr "位置"
+
+#: includes/admin.php:75
+msgid "After the content"
+msgstr "內文之後"
+
+#: includes/admin.php:76
+msgid "Before the content"
+msgstr "內文之前"
+
+#: includes/admin.php:77
+msgid "Before and after"
+msgstr "內文前後"
+
+#: includes/admin.php:78
+msgid "Hidden"
+msgstr "不顯示"
+
+#: includes/admin.php:83
+msgid "Text above the buttons"
+msgstr "按鈕上方文字"
+
+#: includes/admin.php:87
+msgid "Post types"
+msgstr "內容類型"
+
+#: includes/admin.php:100
+#: includes/admin.php:112
+#: includes/frontend.php:283
+msgid "Related posts"
+msgstr "延伸閱讀"
+
+#: includes/admin.php:104
+msgid "Show posts from the same categories after the content"
+msgstr "在內文之後顯示同分類的文章"
+
+#: includes/admin.php:107
+msgid "Number of posts"
+msgstr "文章數量"
+
+#: includes/admin.php:111
+msgid "Heading"
+msgstr "標題"
+
+#. translators: %s: network name, for example Facebook.
+#: includes/frontend.php:132
+#, php-format
+msgid "Share on %s"
+msgstr "分享到 %s"
+
+#: includes/frontend.php:172
+msgid "Link copied"
+msgstr "已複製連結"
+
+#: includes/networks.php:107
+msgid "Email"
+msgstr "電子郵件"
+
+#: includes/networks.php:114
+msgid "Copy link"
+msgstr "複製連結"
+
+#: includes/networks.php:120
+msgid "More options"
+msgstr "更多選項"
